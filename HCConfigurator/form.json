@@ -23,11 +23,6 @@
               "width":"auto"
            },
            {
-              "caption":"Module ID",
-              "name":"ModuleID",
-              "width":"350px"
-           },
-           {
               "caption":"Hardware Type",
               "name":"hwtype",
               "visible":false,

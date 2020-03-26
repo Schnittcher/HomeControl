@@ -1,0 +1,18 @@
+{
+    "id": "{D2A177BB-1F33-9F78-9FC9-EDC22FDAE7DA}",
+    "name": "HCDeviceAutomations",
+    "type": 3,
+    "vendor": "Legrand",
+    "aliases": [
+        "Home Control Automations"
+    ],
+    "parentRequirements": [
+        "{D52C7F96-76A6-12BB-99EB-BE8D586BBAAA}"
+    ],
+    "childRequirements": [],
+    "implemented": [
+        "{3F8F3831-5B8A-CA3C-E1F7-6E00748B977D}"
+    ],
+    "prefix": "HC",
+    "url": "https://www.deinsmarthome.info"
+}

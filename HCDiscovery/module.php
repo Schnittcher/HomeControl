@@ -31,7 +31,6 @@ include_once __DIR__ . '/../libs/data.php';
 
                 foreach ($result->plants as $plant) {
                     $AddValue = [
-                        'plantid'         => $plant->id,
                         'name'            => 'Home Control ' . $plant->name,
                         'plantname'       => $plant->name,
                         'country'         => $plant->country,
