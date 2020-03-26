@@ -1,0 +1,33 @@
+{
+    "actions": [
+        {
+            "type": "Configurator",
+            "name": "Configurator",
+            "caption": "Configurator",
+            "delete": false,
+            "sort": {
+                "column": "plantname",
+                "direction": "ascending"
+            },
+            "columns": [
+                {
+                    "caption": "Plant ID",
+                    "name": "plantid",
+                    "width": "250px"
+                  },
+                  {
+                    "caption": "Plant Name",
+                    "name": "plantname",
+                    "width": "auto"
+                  },
+                  {
+                    "caption": "Country",
+                    "name": "country",
+                    "width": "250px"
+                  }
+
+            ],
+            "values": []
+        }
+    ]
+}

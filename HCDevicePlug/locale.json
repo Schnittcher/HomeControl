@@ -1,0 +1,9 @@
+{
+    "translations": {
+        "de": {
+            "State": "Status",
+            "Reachable": "Erreichbar",
+            "Consumptions": "Verbrauch"
+        }
+    }
+}

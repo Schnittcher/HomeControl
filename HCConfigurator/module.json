@@ -1,0 +1,18 @@
+{
+    "id": "{13F1A7A2-8756-AA9F-9ECD-84976F618BE0}",
+    "name": "HCConfigurator",
+    "type": 4,
+    "vendor": "Legrand",
+    "aliases": [
+        "Home Control Konfigurator"
+    ],
+    "parentRequirements": [
+        "{D52C7F96-76A6-12BB-99EB-BE8D586BBAAA}"
+    ],
+    "childRequirements": [],
+    "implemented": [
+        "{3F8F3831-5B8A-CA3C-E1F7-6E00748B977D}"
+    ],
+    "prefix": "HC",
+    "url": "https://deinsmarthome.info"
+}

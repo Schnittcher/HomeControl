@@ -1,0 +1,18 @@
+{
+    "id": "{D82190C8-2B57-A79E-57BA-FE24E81C01B2}",
+    "name": "HCCloud",
+    "type": 1,
+    "vendor": "Legrand",
+    "aliases": [
+        "Home Control Cloud"
+    ],
+    "parentRequirements": [],
+    "childRequirements": [
+        "{1626125B-8DBB-37E4-CCF7-2DBD63AD5CD7}"
+    ],
+    "implemented": [
+        "{31403531-143D-531C-BB5F-808F10D199B3}"
+    ],
+    "prefix": "HC",
+    "url": "https://deinsmarthome.info"
+}

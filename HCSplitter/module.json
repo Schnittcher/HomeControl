@@ -1,0 +1,21 @@
+{
+    "id": "{6D394B18-B31F-59C1-4A82-54DBDA8F30B6}",
+    "name": "HCSplitter",
+    "type": 2,
+    "vendor": "Legrand",
+    "aliases": [
+        "Home Control Splitter"
+    ],
+    "parentRequirements": [
+        "{31403531-143D-531C-BB5F-808F10D199B3}"
+    ],
+    "childRequirements": [
+        "{3F8F3831-5B8A-CA3C-E1F7-6E00748B977D}"
+    ],
+    "implemented": [
+        "{1626125B-8DBB-37E4-CCF7-2DBD63AD5CD7}",
+        "{D52C7F96-76A6-12BB-99EB-BE8D586BBAAA}"
+    ],
+    "prefix": "HC",
+    "url": "https://deinsmarthome.info"
+}

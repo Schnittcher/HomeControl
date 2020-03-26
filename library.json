@@ -1,0 +1,12 @@
+{
+    "id": "{B1DE913F-1AF2-740C-1613-EC07A11C3086}",
+    "author": "Kai Schnittcher",
+    "name": "HomeControl",
+    "url": "https://www.deinsmarthome.info",
+    "compatibility": {
+        "version": "5.2"
+    },
+    "version": "1.0",
+    "build": 0,
+    "date": 0
+}

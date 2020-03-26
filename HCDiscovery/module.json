@@ -1,0 +1,18 @@
+{
+    "id": "{66544FD3-72F3-C02E-11B4-8D8E00B82991}",
+    "name": "HCDiscovery",
+    "type": 5,
+    "vendor": "Legrand",
+    "aliases": [
+        "Home Control Discovery"
+    ],
+    "parentRequirements": [
+        "{31403531-143D-531C-BB5F-808F10D199B3}"
+    ],
+    "childRequirements": [],
+    "implemented": [
+        "{1626125B-8DBB-37E4-CCF7-2DBD63AD5CD7}"
+    ],
+    "prefix": "HC",
+    "url": "https://deinsmarthome.info"
+}

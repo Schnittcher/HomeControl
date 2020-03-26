@@ -1,0 +1,18 @@
+{
+    "id": "{653D8C04-9A82-CC2A-50A8-6CEC33E0DCFB}",
+    "name": "HCDevicePlug",
+    "type": 3,
+    "vendor": "Legrand",
+    "aliases": [
+        "Home Control Plug"
+    ],
+    "parentRequirements": [
+        "{D52C7F96-76A6-12BB-99EB-BE8D586BBAAA}"
+    ],
+    "childRequirements": [],
+    "implemented": [
+        "{3F8F3831-5B8A-CA3C-E1F7-6E00748B977D}"
+    ],
+    "prefix": "HC",
+    "url": "https://deinsmarthome.info"
+}
