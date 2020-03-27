@@ -55,7 +55,6 @@ include_once __DIR__ . '/../libs/data.php';
                 }
                 $data['actions'][0]['values'] = $Values;
             }
-            IPS_LogMessage('form', json_encode($data));
             return json_encode($data);
         }
 
