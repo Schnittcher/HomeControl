@@ -68,7 +68,9 @@ include_once __DIR__ . '/../libs/data.php';
             foreach ($data->modules->lights as $key => $light) {
                 if ($light->sender->plant->module->id == $this->ReadPropertyString('ModuleID')) {
                     $this->SetValue('Reachable', $light->reachable);
-                    $this->SetValue('Level', $light->level);
+                    if (property_exists($light, 'leve')) {
+                        $this->SetValue('Level', $light->level);
+                    }
                     switch ($light->status) {
                         case 'on':
                             $this->SetValue('State', true);
