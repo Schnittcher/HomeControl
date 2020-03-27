@@ -238,7 +238,6 @@ class HCCloud extends IPSModule
         ];
 
         $context = stream_context_create($opts);
-        IPS_LogMessage('post', print_r($opts, true));
         return file_get_contents($url, false, $context);
     }
 }
