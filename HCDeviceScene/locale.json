@@ -1,0 +1,15 @@
+{
+    "translations": {
+        "de": {
+            "Reachable": "Erreichbar",
+            "Battery": "Batterie",
+            "full": "Voll",
+            "high": "Hoch",
+            "medium": "Mittel",
+            "low": "Leer",
+            "very_low": "Sehr leer",
+            "unkown": "Unbekannt",
+            "Scenes": "Szenen"
+        }
+    }
+}

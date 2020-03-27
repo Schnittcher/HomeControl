@@ -1,0 +1,18 @@
+{
+    "id": "{7FD91366-6D85-C2AA-3A3E-22D097B48826}",
+    "name": "HCDeviceScene",
+    "type": 3,
+    "vendor": "Legrand",
+    "aliases": [
+        "Home Control Scene"
+    ],
+    "parentRequirements": [
+        "{D52C7F96-76A6-12BB-99EB-BE8D586BBAAA}"
+    ],
+    "childRequirements": [],
+    "implemented": [
+        "{3F8F3831-5B8A-CA3C-E1F7-6E00748B977D}"
+    ],
+    "prefix": "HC",
+    "url": "https://deinsmarthome.info"
+}
