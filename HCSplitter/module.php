@@ -43,10 +43,19 @@ class HCSplitter extends IPSModule
     public function ForwardData($JSONString)
     {
         $data = json_decode($JSONString, true);
-        $data['DataID'] = '{31403531-143D-531C-BB5F-808F10D199B3}';
-        $data['Endpoint'] = str_replace('{plantId}', $this->ReadPropertyString('PlantID'), $data['Endpoint']);
-        $this->SendDebug(__FUNCTION__ . 'JSON', json_encode($data), 0);
-        return $this->SendDataToParent(json_encode($data));
+        if (array_key_exists('Endpoint',$data)) {
+            $data['DataID'] = '{31403531-143D-531C-BB5F-808F10D199B3}';
+            $data['Endpoint'] = str_replace('{plantId}', $this->ReadPropertyString('PlantID'), $data['Endpoint']);
+            $this->SendDebug(__FUNCTION__ . 'JSON', json_encode($data), 0);
+            return $this->SendDataToParent(json_encode($data));
+        }
+        if (array_key_exists('Function',$data)) {
+            switch ($data['Function']) {
+                case 'updateScenes':
+                    return $this->updateScenes();
+                    break;
+                }
+        }
     }
 
     public function ReceiveData($JSONString)
@@ -54,6 +63,15 @@ class HCSplitter extends IPSModule
         $data = json_decode($JSONString);
         IPS_LogMessage('Splitter RECV', utf8_decode($data->Buffer));
 
-        $this->SendDataToChildren(json_encode(['DataID' => '{3F8F3831-5B8A-CA3C-E1F7-6E00748B977D}', $data->Buffer]));
+        //$this->SendDataToChildren(json_encode(['DataID' => '{3F8F3831-5B8A-CA3C-E1F7-6E00748B977D}', $data->Buffer]));
+    }
+
+    private function updateScenes()
+    {
+        $Data['DataID'] = '{3F8F3831-5B8A-CA3C-E1F7-6E00748B977D}';
+        $Data['Buffer'] = $this->getData('/v1.0/scene/comfort/addressLocation/plants/'.$this->ReadPropertyString('PlantID'));
+
+        $Data = json_encode($Data);
+        $this->SendDataToChildren($Data);
     }
 }
