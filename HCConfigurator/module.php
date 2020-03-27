@@ -125,7 +125,6 @@ class HCConfigurator extends IPSModule
                     ]
                 ];
             }
-
             $data['actions'][0]['values'] = $AddValueAmbient;
             return json_encode($data);
         }
