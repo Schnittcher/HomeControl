@@ -52,7 +52,7 @@ class HCConfigurator extends IPSModule
             $AddValueAmbient[] = [
                 'id'                    => 9999,
                 'name'                  => 'Ambients',
-                'DisplayName'           => 'Ambients',
+                'DisplayName'           => $this->Translate('Ambients'),
                 'hwtype'                => '',
                 'device'                => ''
             ];
@@ -95,7 +95,7 @@ class HCConfigurator extends IPSModule
             $AddValueAmbient[] = [
                 'id'                    => 9998,
                 'name'                  => 'Others',
-                'DisplayName'           => 'Others',
+                'DisplayName'           => $this->Translate('Others'),
                 'hwtype'                => '',
                 'device'                => ''
             ];
