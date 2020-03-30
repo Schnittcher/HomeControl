@@ -37,9 +37,9 @@ Installation über den IP-Symcon Module Store.
 ## 4. Konfiguration in IP-Symcon
 Als erstes muss die Discovery Instanz erstellt werden.
 ![Discovery Instanz erstellen](img/discovery-erstellen.png)
-Die Discovery Instanz erstellt die HCCloud Instanz, innerhalb dieser Instanz muss die Verbindung zu der Legrand Clound hergestellt werden.
-Um Verbidnung mit der Legrand Cloud herzustellen muss der Button "Registrieren" 
-betätigt werden, daraufhin öffent sich der Registrierungsprozess mit der Cloud.
+Die Discovery Instanz erstellt die HCCloud Instanz, innerhalb dieser Instanz muss die Verbindung zu der Legrand Cloud hergestellt werden.
+Um Verbindung mit der Legrand Cloud herzustellen muss der Button "Registrieren" 
+betätigt werden, daraufhin öffnet sich der Registrierungsprozess mit der Cloud.
 
 ![Legrand Cloud registrieren](img/hccloud.png)
 
