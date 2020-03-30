@@ -51,7 +51,7 @@ include_once __DIR__ . '/../libs/data.php';
 
             $this->SendDebug('JSON', $JSONString, 0);
             foreach ($data->modules->automations as $key => $automation) {
-                if ($automations->sender->plant->module->id == $this->ReadPropertyString('ModuleID')) {
+                if ($automation->sender->plant->module->id == $this->ReadPropertyString('ModuleID')) {
                     $this->SetValue('Reachable', $automations->reachable);
                     $this->SetValue('Level', $automations->level);
                 }
