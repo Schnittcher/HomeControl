@@ -27,7 +27,7 @@
 * [HCDeviceLight](HCDeviceLight/README.md)
 * [HCDevicePlug](HCDevicePlug/README.md)
 * [HCDeviceRemote](HCDeviceRemote/README.md)
-* [HCDeviceScenes](HCDeviceScenes/README.md)
+* [HCDeviceScene](HCDeviceScene/README.md)
 * [HCdiscovery](HCdiscovery/README.md)
 * [HCSplitter](HCSplitter/README.md)
 
