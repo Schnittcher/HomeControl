@@ -36,9 +36,8 @@ Keine Variablen und Profile vorhanden.
 ### 5. PHP-Befehlsreferenz
 
 `HC.UpdateStatus($InstanceID);`
-Schaltet die Steckdose ein bzw. aus.
+Ruft den Status ab und schickt diesen an alle Child Instanzen.
 
 Beispiel:
 
 `HC.UpdateStatus(12345);`
-Ruft den Status ab und schickt diesen an alle Child Instanzen.
