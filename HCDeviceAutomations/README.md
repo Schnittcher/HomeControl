@@ -12,7 +12,7 @@ Einbindung des Rolladen Aktors von Legrand in IP-Symcon.
 
 ### 1. Funktionsumfang
 
-* Ansteueren eines Rolladen Aktores
+* Ansteuern eines Rolladen Aktors
 
 ### 2. Vorraussetzungen
 
