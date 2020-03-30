@@ -18,7 +18,7 @@ include_once __DIR__ . '/../libs/data.php';
             if ($this->HasActiveParent()) {
                 $this->updateScenes();
             } else {
-                $ProfileName = 'HC.Scnees' . $this->InstanceID;
+                $ProfileName = 'HC.Scenes' . $this->InstanceID;
                 if (!IPS_VariableProfileExists($ProfileName)) {
                     IPS_CreateVariableProfile($ProfileName, 1);
                 }

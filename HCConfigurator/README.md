@@ -5,62 +5,32 @@ Beschreibung des Moduls.
 
 1. [Funktionsumfang](#1-funktionsumfang)
 2. [Voraussetzungen](#2-voraussetzungen)
-3. [Software-Installation](#3-software-installation)
-4. [Einrichten der Instanzen in IP-Symcon](#4-einrichten-der-instanzen-in-ip-symcon)
-5. [Statusvariablen und Profile](#5-statusvariablen-und-profile)
-6. [WebFront](#6-webfront)
-7. [PHP-Befehlsreferenz](#7-php-befehlsreferenz)
+3. [Einrichten der Instanzen in IP-Symcon](#4-einrichten-der-instanzen-in-ip-symcon)
+4. [Statusvariablen und Profile](#5-statusvariablen-und-profile)
+5. [PHP-Befehlsreferenz](#7-php-befehlsreferenz)
 
 ### 1. Funktionsumfang
 
-*
+* Erstellen der einzelnen Geräteinstanzen
 
 ### 2. Vorraussetzungen
 
 - IP-Symcon ab Version 5.2
 
-### 3. Software-Installation
+### 3. Einrichten der Instanzen in IP-Symcon
 
-* Über den Module Store das 'HCConfigurator'-Modul installieren.
-* Alternativ über das Module Control folgende URL hinzufügen
-
-### 4. Einrichten der Instanzen in IP-Symcon
-
- Unter 'Instanz hinzufügen' ist das 'HCConfigurator'-Modul unter dem Hersteller 'Legrand' aufgeführt.
+Über die Discovery Instanz können die einzelnen Configuratoren zu den im Legrand Account hinterlegten Gateways angelegt werden.
 
 __Konfigurationsseite__:
 
 Name     | Beschreibung
 -------- | ------------------
-         |
-         |
+PlantID  | Die Plant ID des Gateways, wird über die Discovery Instanz gefüllt.
 
-### 5. Statusvariablen und Profile
+### 4. Statusvariablen und Profile
 
-Die Statusvariablen/Kategorien werden automatisch angelegt. Das Löschen einzelner kann zu Fehlfunktionen führen.
+Keine Variablen und Profile vorhanden.
 
-#### Statusvariablen
+### 5. PHP-Befehlsreferenz
 
-Name   | Typ     | Beschreibung
------- | ------- | ------------
-       |         |
-       |         |
-
-#### Profile
-
-Name   | Typ
------- | -------
-       |
-       |
-
-### 6. WebFront
-
-Die Funktionalität, die das Modul im WebFront bietet.
-
-### 7. PHP-Befehlsreferenz
-
-`boolean HC_BeispielFunktion(integer $InstanzID);`
-Erklärung der Funktion.
-
-Beispiel:
-`HC_BeispielFunktion(12345);`
+Keine Funktionen vorhanden.
