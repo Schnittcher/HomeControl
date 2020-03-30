@@ -39,7 +39,7 @@ Name   | Typ     | Beschreibung
 ------ | ------- | ------------
 Reachable|Boolean| Zeigt an, ob das Gerät erreichbar ist oder nicht
 Status|Boolean| Schaltet das Licht ein bzw. aus
-Level|Integer| Über diese Variable lässt sich der Rolladen Aktor auf eine bestimmte Position fahren
+Level|Integer| Über diese Variable lässt sich die Helligkeit des Lichts einstellen.
 
 #### Profile
 
