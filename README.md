@@ -28,7 +28,7 @@
 * [HCDevicePlug](HCDevicePlug/README.md)
 * [HCDeviceRemote](HCDeviceRemote/README.md)
 * [HCDeviceScene](HCDeviceScene/README.md)
-* [HCdiscovery](HCdiscovery/README.md)
+* [HCDiscovery](HCDiscovery/README.md)
 * [HCSplitter](HCSplitter/README.md)
 
 ## 3. Installation
