@@ -47,13 +47,13 @@ Nach erfolgreicher Registrierung, werden in der Discovery Instanz alle Gateways 
 
 ![Discovery Instanz](img/discovery.png)
 
-Diese Gateways können über die Discovery Instanz angelegt werden, in IP-Symcon wird dann ein Configurator für das ausgerwählte Gateway angelegt.
+Diese Gateways können über die Discovery Instanz angelegt werden, in IP-Symcon wird dann ein Configurator für das ausgewählte Gateway angelegt.
 
 ![Configurator Instanz](img/configurator.png)
 
-Mithilfe des Configurators können die einzelnen Instanzen (Light, Plug, Remote Automations und Szenen) angelegt werden.
+Mithilfe des Configurators können die einzelnen Instanzen (Light, Plug, Remote, Automations und Szenen) angelegt werden.
 
-Innerhalb der Splitter Insatnz kann eingestellt werden, in welchem Intervall der Status der Geräte abgefragt werden soll.
+Innerhalb der Splitter Instanz kann eingestellt werden, in welchem Intervall der Status der Geräte abgefragt werden soll.
 
 ![Splitter Instanz](img/splitter.png)
 
