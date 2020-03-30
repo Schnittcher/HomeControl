@@ -48,6 +48,7 @@ class HCConfigurator extends IPSModule
             $GUIDs['light'] = '{4862376D-E80B-E1D6-EAA8-CB182580CC02}';
             $GUIDs['automation'] = '{D2A177BB-1F33-9F78-9FC9-EDC22FDAE7DA}';
             $GUIDs['remote'] = '{0463735C-76BA-7822-A69A-618C1B7E69DE}';
+            $GUIDs['scenes'] = '{7FD91366-6D85-C2AA-3A3E-22D097B48826}';
             $location = 0;
             $AddValueAmbient[] = [
                 'id'                    => 9999,
@@ -125,6 +126,28 @@ class HCConfigurator extends IPSModule
                     ]
                 ];
             }
+            $AddValueAmbient[] = [
+                'id'                    => 9997,
+                'name'                  => 'Scenes',
+                'DisplayName'           => $this->Translate('Scenes'),
+                'hwtype'                => '',
+                'device'                => '',
+                'instanceID'            => $this->searchHCDeviceScenes(),
+                'create'                => [
+                    [
+                        'moduleID'      => $GUIDs['scenes'],
+                        'configuration' => [],
+                        'location'      => $location
+                    ],
+                    [
+                        'moduleID'      => '{6D394B18-B31F-59C1-4A82-54DBDA8F30B6}', // Splitter
+                        'configuration' => [
+                            'PlantID' => $result->plant->id
+                        ]
+                    ]
+                ]
+            ];
+
             $data['actions'][0]['values'] = $AddValueAmbient;
             return json_encode($data);
         }
@@ -140,9 +163,9 @@ class HCConfigurator extends IPSModule
     {
         //Plugs & Lights
         $ids = array_merge(IPS_GetInstanceListByModuleID('{653D8C04-9A82-CC2A-50A8-6CEC33E0DCFB}'), IPS_GetInstanceListByModuleID('{4862376D-E80B-E1D6-EAA8-CB182580CC02}'));
-        //Plugs & Lights $ Automations
+        //Plugs & Lights & Automations
         $ids = array_merge($ids, IPS_GetInstanceListByModuleID('{D2A177BB-1F33-9F78-9FC9-EDC22FDAE7DA}'));
-        //Plugs & Lights $ Automations & Remote
+        //Plugs & Lights & Automations & Remote
         $ids = array_merge($ids, IPS_GetInstanceListByModuleID('{0463735C-76BA-7822-A69A-618C1B7E69DE}'));
         foreach ($ids as $id) {
             if (IPS_GetProperty($id, 'ModuleID') == $moduleID) {
@@ -150,5 +173,11 @@ class HCConfigurator extends IPSModule
             }
         }
         return 0;
+    }
+
+    private function searchHCDeviceScenes()
+    {
+        $ids = IPS_GetInstanceListByModuleID('{7FD91366-6D85-C2AA-3A3E-22D097B48826}');
+        return $ids[0];
     }
 }

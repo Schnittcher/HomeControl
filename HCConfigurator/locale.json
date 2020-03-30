@@ -2,7 +2,8 @@
     "translations": {
         "de": {
             "Others": "Sonstiges",
-            "Ambients": "Ambients / Räume"
+            "Ambients": "Ambients / Räume",
+            "Scenes": "Szenen"
         }
     }
 }
