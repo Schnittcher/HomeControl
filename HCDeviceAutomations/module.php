@@ -29,7 +29,7 @@ include_once __DIR__ . '/../libs/data.php';
         {
             //Never delete this line!
             parent::ApplyChanges();
-            $this->SetReceiveDataFilter('.*' .$this->ReadPropertyString('ModuleID'). '.*');
+            $this->SetReceiveDataFilter('.*' . $this->ReadPropertyString('ModuleID') . '.*');
         }
 
         public function RequestAction($Ident, $Value)
