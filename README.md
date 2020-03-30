@@ -36,26 +36,26 @@ Installation über den IP-Symcon Module Store.
 
 ## 4. Konfiguration in IP-Symcon
 Als erstes muss die Discovery Instanz erstellt werden.
-![Discovery Instanz erstellen](img/discovery-erstellen.png)
+![Discovery Instanz erstellen](imgs/discovery-erstellen.png)
 Die Discovery Instanz erstellt die HCCloud Instanz, innerhalb dieser Instanz muss die Verbindung zu der Legrand Cloud hergestellt werden.
 Um Verbindung mit der Legrand Cloud herzustellen muss der Button "Registrieren" 
 betätigt werden, daraufhin öffnet sich der Registrierungsprozess mit der Cloud.
 
-![Legrand Cloud registrieren](img/hccloud.png)
+![Legrand Cloud registrieren](imgs/hccloud.png)
 
 Nach erfolgreicher Registrierung, werden in der Discovery Instanz alle Gateways angezeigt, welche mit dem Legrand Account verknüpft sind.
 
-![Discovery Instanz](img/discovery.png)
+![Discovery Instanz](imgs/discovery.png)
 
 Diese Gateways können über die Discovery Instanz angelegt werden, in IP-Symcon wird dann ein Configurator für das ausgewählte Gateway angelegt.
 
-![Configurator Instanz](img/configurator.png)
+![Configurator Instanz](imgs/configurator.png)
 
 Mithilfe des Configurators können die einzelnen Instanzen (Light, Plug, Remote, Automations und Szenen) angelegt werden.
 
 Innerhalb der Splitter Instanz kann eingestellt werden, in welchem Intervall der Status der Geräte abgefragt werden soll.
 
-![Splitter Instanz](img/splitter.png)
+![Splitter Instanz](imgs/splitter.png)
 
 ## 5. Spenden
 
