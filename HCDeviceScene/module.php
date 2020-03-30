@@ -38,6 +38,7 @@ include_once __DIR__ . '/../libs/data.php';
         {
             //Never delete this line!
             parent::ApplyChanges();
+            $this->SetReceiveDataFilter('.*scenes.*');
         }
 
         public function RequestAction($Ident, $Value)
