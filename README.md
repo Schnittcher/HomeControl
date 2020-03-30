@@ -43,7 +43,7 @@ betätigt werden, daraufhin öffnet sich der Registrierungsprozess mit der Cloud
 
 ![Legrand Cloud registrieren](img/hccloud.png)
 
-Nach erfolgriecher Registrierung, werden in der Discovery Instanz alle Gateways angezeigt, welche mit dem Legrand Account verknüpft sind.
+Nach erfolgreicher Registrierung, werden in der Discovery Instanz alle Gateways angezeigt, welche mit dem Legrand Account verknüpft sind.
 
 ![Discovery Instanz](img/discovery.png)
 
