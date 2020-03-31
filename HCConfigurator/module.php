@@ -178,6 +178,9 @@ class HCConfigurator extends IPSModule
     private function searchHCDeviceScenes()
     {
         $ids = IPS_GetInstanceListByModuleID('{7FD91366-6D85-C2AA-3A3E-22D097B48826}');
-        return $ids[0];
+        if (array_key_exists(0, $ids)) {
+            return $ids[0];
+        }
+        return 0;
     }
 }
