@@ -80,8 +80,6 @@ class HCCloud extends IPSModule
 
             $this->SendDebug('ProcessOAuthData', "OK! Let's save the Refresh Token permanently", 0);
             $this->WriteAttributeString('Token', $token);
-            //IPS_SetProperty($this->InstanceID, 'Token', $token);
-            IPS_ApplyChanges($this->InstanceID);
         } else {
 
                 //Just print raw post data!
@@ -184,8 +182,6 @@ class HCCloud extends IPSModule
                 $this->SendDebug('FetchAccessToken', "NEW! Let's save the updated Refresh Token permanently", 0);
 
                 $this->WriteAttributeString('Token', $data->refresh_token);
-                //IPS_SetProperty($this->InstanceID, 'Token', $data->refresh_token);
-                IPS_ApplyChanges($this->InstanceID);
             }
         }
 
