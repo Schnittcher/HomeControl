@@ -1,5 +1,5 @@
 # HCConfigurator
-Beschreibung des Moduls.
+Mit dem Configurator ist es möglich die einzelnen Geräte in IP-Symcon anzulegen.
 
 ### Inhaltsverzeichnis
 
