@@ -3,7 +3,8 @@
         "de": {
             "Others": "Sonstiges",
             "Ambients": "Ambients / Räume",
-            "Scenes": "Szenen"
+            "Scenes": "Szenen",
+            "Device": "Gerät"
         }
     }
 }
