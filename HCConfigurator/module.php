@@ -32,14 +32,10 @@ class HCConfigurator extends IPSModule
             $result = $this->getData('/v1.0/plants/{plantId}/topology');
 
             $this->SendDebug('Topology', print_r($result, true), 0);
-            IPS_LogMessage('Topology', print_r($result, true));
 
             if (empty($result)) {
                 return json_encode($data);
             }
-
-            //$result = $this->getData('/v1.0/plants/' . $this->ReadPropertyString('PlantID').'/topology');
-            IPS_LogMessage('Result PlantID', print_r($result, true));
 
             $Values = [];
             $ValuesAll = [];
