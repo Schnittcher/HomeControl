@@ -1,7 +1,10 @@
 {
     "translations": {
         "de": {
-            "Country": "Land"
+            "Country": "Land",
+            "Configurator":"Konfigurator",
+            "Plant Name":"Plant Name"
+
         }
     }
 }

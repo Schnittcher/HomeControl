@@ -8,7 +8,8 @@
             "medium": "Mittel",
             "low": "Leer",
             "very_low": "Sehr leer",
-            "unkown": "Unbekannt"
+            "unkown": "Unbekannt",
+            "Module ID": "Module ID"
         }
     }
 }

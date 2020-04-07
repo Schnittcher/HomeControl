@@ -3,7 +3,8 @@
         "de": {
             "State": "Status",
             "Reachable": "Erreichbar",
-            "Consumptions": "Verbrauch"
+            "Consumptions": "Verbrauch",
+            "Module ID": "Module ID"
         }
     }
 }

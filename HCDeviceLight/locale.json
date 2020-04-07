@@ -3,7 +3,8 @@
         "de": {
             "State": "Status",
             "Level": "Level",
-            "Reachable": "Erreichbar"
+            "Reachable": "Erreichbar",
+            "Module ID": "Module ID"
         }
     }
 }

@@ -4,7 +4,10 @@
             "Others": "Sonstiges",
             "Ambients": "Ambients / Räume",
             "Scenes": "Szenen",
-            "Device": "Gerät"
+            "Device": "Gerät",
+            "Configurator":"Konfigurator",
+            "Hardware Type":"Hardware Typ",
+            "Name":"Name"
         }
     }
 }

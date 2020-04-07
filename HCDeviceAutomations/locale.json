@@ -2,7 +2,8 @@
     "translations": {
         "de": {
             "Level": "Level",
-            "Reachable": "Erreichbar"
+            "Reachable": "Erreichbar",
+            "Module ID":"Module ID"
         }
     }
 }

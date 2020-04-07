@@ -1,7 +1,8 @@
 {
     "translations": {
         "de": {
-            "Seconds": "Sekunden"
+            "Seconds": "Sekunden",
+            "Plant ID": "Plant ID"
         }
     }
 }
