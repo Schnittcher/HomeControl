@@ -6,38 +6,37 @@
             "caption": "Plant ID"
         }
     ],
-    "actions": [     {
-        "type":"Configurator",
-        "name":"Configurator",
-        "caption":"Configurator",
-        "rowCount":15,
-        "delete":false,
-        "sort":{
-           "column":"DisplayName",
-           "direction":"ascending"
-        },
-        "columns":[
-           {
-              "caption":"Name",
-              "name":"DisplayName",
-              "width":"auto"
-           },
-           {
-              "caption":"Hardware Type",
-              "name":"hwtype",
-              "visible":false,
-              "width":"100px"
-           },
-           {
-              "caption":"Device",
-              "name":"device",
-              "width":"250px"
-           }
-        ],
-        "values":[
-
-        ]
-     }
+    "actions": [
+        {
+            "type": "Configurator",
+            "name": "Configurator",
+            "caption": "Configurator",
+            "rowCount": 15,
+            "delete": false,
+            "sort": {
+                "column": "DisplayName",
+                "direction": "ascending"
+            },
+            "columns": [
+                {
+                    "caption": "Name",
+                    "name": "DisplayName",
+                    "width": "auto"
+                },
+                {
+                    "caption": "Hardware Type",
+                    "name": "hwtype",
+                    "visible": false,
+                    "width": "100px"
+                },
+                {
+                    "caption": "Device",
+                    "name": "device",
+                    "width": "250px"
+                }
+            ],
+            "values": []
+        }
     ],
     "status": []
 }

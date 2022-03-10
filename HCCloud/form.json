@@ -1,9 +1,10 @@
 {
-	"elements":
-	[
-	],
-	"actions":
-	[
-		{ "type": "Button", "label": "Register", "onClick": "echo HC_Register($id);" }
-	]
+    "elements": [],
+    "actions": [
+        {
+            "type": "Button",
+            "label": "Register",
+            "onClick": "echo HC_Register($id);"
+        }
+    ]
 }

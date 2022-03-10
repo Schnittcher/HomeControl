@@ -10,17 +10,16 @@
                 "direction": "ascending"
             },
             "columns": [
-                  {
+                {
                     "caption": "Plant Name",
                     "name": "plantname",
                     "width": "auto"
-                  },
-                  {
+                },
+                {
                     "caption": "Country",
                     "name": "country",
                     "width": "250px"
-                  }
-
+                }
             ],
             "values": []
         }

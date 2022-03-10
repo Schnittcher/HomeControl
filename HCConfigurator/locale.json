@@ -5,9 +5,9 @@
             "Ambients": "Ambients / Räume",
             "Scenes": "Szenen",
             "Device": "Gerät",
-            "Configurator":"Konfigurator",
-            "Hardware Type":"Hardware Typ",
-            "Name":"Name"
+            "Configurator": "Konfigurator",
+            "Hardware Type": "Hardware Typ",
+            "Name": "Name"
         }
     }
 }

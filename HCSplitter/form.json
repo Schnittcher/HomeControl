@@ -1,6 +1,6 @@
 {
     "elements": [
-		{
+        {
             "type": "ValidationTextBox",
             "name": "PlantID",
             "caption": "Plant ID"
@@ -10,7 +10,7 @@
             "type": "IntervalBox",
             "caption": "Seconds"
         }
-	],
+    ],
     "actions": [],
     "status": []
 }
