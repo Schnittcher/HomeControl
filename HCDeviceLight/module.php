@@ -63,7 +63,6 @@ include_once __DIR__ . '/../libs/data.php';
 
         public function ReceiveData($JSONString)
         {
-            $JSONString = '{"DataID":"{3F8F3831-5B8A-CA3C-E1F7-6E00748B977D}","Buffer":{"modules":{"lights":[{"reachable":true,"status":"off","level":63,"fw":57,"consumptions":[{"unit":"watt","value":0,"timestamp":"2022-06-02T12:24:11+00:00"}],"sender":{"plant":{"module":{"id":"000000047422841000047400008219d1"}}}}],"plugs":[{"reachable":true,"status":"on","consumptions":[{"unit":"watt","value":0,"timestamp":"2022-06-02T12:24:11+00:00"}],"sender":{"plant":{"module":{"id":"000000047422841000047400000ae3e5"}}},"fw":68}],"automations":[],"energymeters":[],"remotes":[{"reachable":false,"battery":"full","sender":{"plant":{"module":{"id":"00000004742284100004740000a92629"}}},"fw":50},{"reachable":false,"battery":"full","sender":{"plant":{"module":{"id":"0000000474228410000474000099d93c"}}},"fw":50}],"heaters":[]}}}';
             $data = json_decode($JSONString)->Buffer;
 
             $this->SendDebug('JSON', $JSONString, 0);
